@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.navbar{
+    background: black;
+    padding: 20px 0;
+}
+.nav_hello{
+    color: white;
+    margin-left: 10px;
+}
+.news{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.shop_actions{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
+}
+.shop_actions li {
+    font-weight: 700;
+    margin-right: 50px;
+    font-size: 30px;
+}
+.shop_actions li:nth-child(2){
+    margin-right: 150px;
+}
+.shop_actions li:first-child{
+    margin-right: 100px;
+}
+/* ==== shop_edit ===== */
+.shop_edit{
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
+}
+.shop_edit li:nth-child(2){
+    margin-right: 150px;
+}
+.shop_edit li:first-child{
+    margin-right: 100px;
+}
+
+/* === show_title === */
+.show_title{
+    margin-top: 50px;
+}
+
+.show_title button {
+    display: flex;
+    align-self: flex-start;
+}
+
+.show_title h2 {
+    background: orange;
+}
+.show_title p {
+    background: yellow;
+    color: red;
+}
